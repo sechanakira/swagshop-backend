@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: swagshop-backend
+  server:
+    port: 9292
