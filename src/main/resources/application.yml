@@ -3,3 +3,12 @@ micronaut:
     name: swagshop-backend
   server:
     port: 9292
+  jpa:
+    default:
+      packages-to-scan:
+        - 'za.co.swagshop.persistence.entity'
+      properties:
+        hibernate:
+          hbm2ddl:
+            auto: update
+          show_sql: true
