@@ -1,4 +1,9 @@
 package za.co.swagshop.persistence.entity;
 
-public class Item {
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "item")
+public class Item extends AbstractBaseEntity {
 }
